@@ -1,0 +1,9 @@
+name: MC_DISCORD
+version: '1.0-SNAPSHOT'
+main: me.yacine.mC_DISCORD.MC_DISCORD
+api-version: '1.21'
+
+commands:
+  set-webhook:
+    description: MC_DISCORD set URL
+    usage: /set-webhook <URL>
