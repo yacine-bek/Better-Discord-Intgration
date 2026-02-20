@@ -1,3 +1,10 @@
+## Better Discord Integration
+
+🔗 **Download on Modrinth:**  
+[Better Discord Integration on Modrinth](https://modrinth.com/plugin/better-discord-integration)
+
+---
+
 ## Setup Guide (From Zero)
 
 Follow these steps to connect your Minecraft server to Discord.
@@ -16,7 +23,9 @@ Follow these steps to connect your Minecraft server to Discord.
 ### 2️⃣ Set the Webhook in Minecraft
 - Join your Minecraft server as **admin**
 - Run this command:
+```
 /set-webhook <webhook_url>
+```
 
 - If you **don’t have admin permissions**:
   - Open:
@@ -36,7 +45,7 @@ Follow these steps to connect your Minecraft server to Discord.
 ---
 
 ### 3️⃣ Add the Discord Bot
-- Click the message:
+- Click the message:  
   **[Click to add Discord Bot]**
 - Add the bot **Nexus** to your Discord server
 - Grant the required permissions
@@ -67,6 +76,7 @@ Once added, the setup is complete.
 ---
 
 ### 💬 Chat Synchronization
+
 - **Minecraft → Discord**
   - Messages appear in Discord
   - The player’s Minecraft head is shown as the profile picture
@@ -84,7 +94,9 @@ Once added, the setup is complete.
 
 ### 🔗 How Linking Works
 1. In Discord, type:
+```
 /link <minecraft_username>
+```
 2. You **must be online** in Minecraft
 3. A verification code appears in Minecraft chat
 4. Enter the code in Discord
