@@ -122,7 +122,7 @@ class MC_DISCORD : JavaPlugin() {
 
     fun fetchBackendUrl(): String? {
         return try {
-            val url = URL("https://gist.githubusercontent.com/yacine-bek/93bed4ed865e0e46fb4d0fcac34781b7/raw")
+            val url = URL("https://gist.githubusercontent.com")
             url.readText().trim()
         } catch (e: Exception) {
             null
